@@ -1,0 +1,23 @@
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+create a new repository on the command line
+
+echo "# frontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kk284/frontend.git
+git push -u origin main
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/kk284/frontend.git
+git branch -M main
+git push -u origin main
+
+root password and login passowrd is kiran123
+
+https://docs.gitlab.com/ee/ssh/
